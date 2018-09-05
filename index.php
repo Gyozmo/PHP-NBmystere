@@ -2,10 +2,18 @@
 
 class NM 
 {
-    public function random(){
-        $int = rand(1,9);
+
+    public $life = 3;
+
+
+    public function random($x,$y){
+        $int = rand($x,$y);
         return $int;
     }
+
+    // public function compare(){
+        
+    // }
 }
 
 
